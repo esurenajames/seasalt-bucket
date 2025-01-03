@@ -52,7 +52,9 @@
               {{ item.name }}
             </router-link>
           </template>
-          <button
+          <a
+            href="https://food.grab.com/ph/en/restaurant/seasalt-bucket-le-village-lifestyle-park-delivery/2-C3KTLBLAR74BTX?"
+            target="_blank"
             :class="[
               'px-6 py-2 rounded-full font-medium transform transition-all duration-300',
               isScrolled
@@ -61,7 +63,7 @@
             ]"
           >
             Order Now
-          </button>
+          </a>
         </div>
 
         <!-- Mobile menu button -->
@@ -141,7 +143,9 @@
           </router-link>
         </template>
         <div class="pt-2">
-          <button
+          <a  
+            href="https://food.grab.com/ph/en/restaurant/seasalt-bucket-le-village-lifestyle-park-delivery/2-C3KTLBLAR74BTX?"
+            target="_blank"
             :class="[
               'w-full px-6 py-3 rounded-full font-medium transform transition-all duration-300 focus:outline-none focus:ring-2',
               isScrolled
@@ -150,7 +154,7 @@
             ]"
           >
             Order Now
-          </button>
+          </a>
         </div>
       </div>
     </div>
