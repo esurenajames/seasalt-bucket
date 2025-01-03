@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Breathing';
+    src: url('./font/Breathing.ttf') format('truetype'); /* Relative path */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.breathing-font {
+  font-family: 'Breathing', sans-serif;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body { 
+  overflow-x: hidden;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
