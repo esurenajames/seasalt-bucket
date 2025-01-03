@@ -19,9 +19,10 @@
               <a href="https://food.grab.com/ph/en/restaurant/seasalt-bucket-le-village-lifestyle-park-delivery/2-C3KTLBLAR74BTX?" class="w-full sm:w-auto text-nowrap bg-gray-100 text-customOrange px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 hover:bg-white transition duration-300">
                 Order Online
               </a>
-              <button class="w-full sm:w-auto text-nowrap border-2 border-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 hover:bg-gray-100 hover:text-customOrange transition duration-300">
+              <router-link 
+                to="/menu"  class="w-full sm:w-auto text-nowrap border-2 border-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 hover:bg-gray-100 hover:text-customOrange transition duration-300">
                 View Menu
-              </button>
+              </router-link>
             </div>
           </div>
           <!-- Image Container -->
