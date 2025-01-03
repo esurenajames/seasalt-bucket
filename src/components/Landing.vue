@@ -20,7 +20,8 @@
                 Order Online
               </a>
               <router-link 
-                to="/menu"  class="w-full sm:w-auto text-nowrap border-2 border-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 hover:bg-gray-100 hover:text-customOrange transition duration-300">
+                to="/menu"
+                class="w-full sm:w-auto text-nowrap border-2 border-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 hover:bg-gray-100 hover:text-customOrange transition duration-300">
                 View Menu
               </router-link>
             </div>
