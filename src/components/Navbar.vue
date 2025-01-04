@@ -147,7 +147,7 @@
             href="https://food.grab.com/ph/en/restaurant/seasalt-bucket-le-village-lifestyle-park-delivery/2-C3KTLBLAR74BTX?"
             target="_blank"
             :class="[
-              'w-full px-6 py-3 rounded-full font-medium transform transition-all duration-300 focus:outline-none focus:ring-2',
+              'block w-full px-6 py-3 text-center rounded-full font-medium transform transition-all duration-300 focus:outline-none focus:ring-2',
               isScrolled
                 ? 'bg-orange-500 text-white hover:bg-orange-600 focus:ring-orange-300'
                 : 'bg-gray-200 text-customOrange hover:bg-white focus:ring-white',
